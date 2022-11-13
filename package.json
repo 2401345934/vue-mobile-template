@@ -1,7 +1,7 @@
 {
   "name": "vue-mobile-template",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "version": "# 修改 version  \n zx bump.mjs",
     "commit": "npm run version && npm run changelog && git add . && git cz ",

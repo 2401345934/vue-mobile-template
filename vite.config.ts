@@ -4,7 +4,7 @@ import Components from 'unplugin-vue-components/vite'
 import { VantResolver } from 'unplugin-vue-components/resolvers'
 import path from 'path'
 
-function resolve(dir) {
+function resolve(dir: string): string {
   return path.join(__dirname, dir)
 }
 
