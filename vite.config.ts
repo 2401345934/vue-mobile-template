@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
 import { VantResolver } from 'unplugin-vue-components/resolvers'
 // @ts-ignore
-import stylePxToVw from './plugins/stylePxToVw'
+import stylePxToVw from '@xiaomh/vue-style-pxto-vw'
 import path from 'path'
 
 function resolve(dir: string): string {

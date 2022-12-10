@@ -1,7 +1,7 @@
 {
   "name": "vue-mobile-template",
   "private": true,
-  "version": "1.0.3",
+  "version": "1.0.6",
   "scripts": {
     "version": "# 修改 version  \n zx bump.mjs",
     "commit": "npm run version && npm run changelog && git add . && git cz ",
@@ -45,6 +45,7 @@
     "@typescript-eslint/eslint-plugin": "^5.42.1",
     "@typescript-eslint/parser": "^5.40.0",
     "@vitejs/plugin-vue": "^3.2.0",
+    "@xiaomh/vue-style-pxto-vw": "^1.0.6",
     "commitizen": "^4.2.5",
     "commitlint": "^17.2.0",
     "commitlint-config-cz": "^0.13.3",
